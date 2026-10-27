@@ -1,0 +1,26 @@
+{
+  "name": "euro-finance-core",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.5",
+    "@fontsource/space-grotesk": "5.2.10",
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "vite": "7.1.7"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
